@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.clear-fix {
+    clear: both;
+}
+
+#home {
+    min-height: 100vh;
+    background-image: url(../images/home-background-image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-color: #00000093;
+    background-blend-mode: overlay;
+}
+
+#home .caption img {
+    /* width: 100%; */
+}
+
+#home .caption {
+    /* background-color: rgb(57, 31, 31); */
+    /* position: absolute; */
+    /* top: 20%; */
+    /* left: 35%; */
+    /* width: 500px;
+    margin: auto; */
+    text-align: center;
+    color: #fff;
+    /* padding-top: 10%; */
+    padding-top: 150px;
+    padding-bottom: 40%;
+    /* padding-bottom: 13.4%; */
+}
+
+#home .caption h1 {
+    /* background-color: rgb(57, 31, 31); */
+    margin: 15px 0;
+    font-size: 3em;
+    text-transform: capitalize;
+    /* letter-spacing: 2px; */
+
+
+}
+
+#home .caption p {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+
+    /* text-transform: capitalize; */
+}
+
+#home .caption p::first-letter {
+    text-transform: capitalize;
+}
+
+.btn {
+    border: 0;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    padding: 10px 25px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#home .caption .buttons .learn-more-btn {
+    background: #c2ab82;
+}
+
+#our-store {
+    min-height: 60vh;
+    /* background: aqua; */
+    overflow: hidden;
+    /* padding: 5vh 0; */
+}
+
+#our-store .chef-picture {
+    width: 34.7%;
+    background: rgb(198, 121, 108);
+    float: left;
+    /* padding: 5px; */
+}
+
+#our-store .chef-picture img {
+    width: 100%;
+    min-height: 480px;
+}
+
+#our-store .caption {
+    float: left;
+    width: calc(100% - (34.7% + 10%));
+    text-align: center;
+    /* background: gray; */
+    padding: 5%;
+    /* margin-top: 5%; */
+}
+
+#our-store .caption h2 {
+    font-size: 200%;
+    margin-bottom: 0;
+    color: #012491;
+}
+
+#our-store .caption hr {
+    border: #012491 2px solid;
+    width: 80px;
+    margin: 20px auto 30px;
+}
+
+#our-store .caption h2::first-letter {
+    text-transform: capitalize;
+}
+
+#our-store .caption p {
+    font-size: 130%;
+    line-height: 150%;
+    color: #012491;
+    /* font-weight: 600; */
+}
+
+#our-store button {
+    background-color: transparent;
+    border: black solid 0.5px;
+    color: #012491;
+}
+
+/* * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.left-nav {
+    width: 200px;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.right-nav {
+    width: fit-content;
+}
+
+.right-nav ul li,
+.left-nav {
+    display: inline-block;
+}
+
+.container {
+    background-color: aqua;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#header {
+    background-color: tomato;
+    width: 100%;
+}
+
+ul {
+    background-color: brown;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+} */
