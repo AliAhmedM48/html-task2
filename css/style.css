@@ -56,14 +56,16 @@ body {
 }
 
 
-#home .nav-bar ul li:hover a {
-    color: #c2ab82;
-
-
+#home .nav-bar ul li:hover {
+    background: #c2ab82;
+    border-radius: 7px;
+    transition: 0.7s;
 }
 
-#home .nav-bar ul a::selection {
-    background-color: transparent;
+#home .nav-bar ul li:hover a {
+    color: #000;
+    transition: 0.7s;
+
 }
 
 #home .nav-bar ul li a {
@@ -183,7 +185,7 @@ body {
 
 #our-store .caption p {
     font-size: 130%;
-    line-height: 150%;
+    line-height: 40px;
     color: #012491;
     /* font-weight: 600; */
 }
@@ -192,6 +194,7 @@ body {
     background-color: transparent;
     border: black solid 0.5px;
     color: #012491;
+    margin-top: 30px;
 }
 
 .break-image {
